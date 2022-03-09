@@ -25,7 +25,6 @@ while num_of_incorrect_guesses < TOTAL_NUM_OF_INCORRECT_GUESSES_ALLOWED and Fals
     
     for current_guessed_letters in guessed_letters:
         print(f"{current_guessed_letters} ", end = "")
-    
     print()
     
     print(f"Number of incorrect guessees remaining: {TOTAL_NUM_OF_INCORRECT_GUESSES_ALLOWED - num_of_incorrect_guesses}")
