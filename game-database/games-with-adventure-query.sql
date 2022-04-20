@@ -2,7 +2,7 @@ SELECT
 	*
 FROM
 	games
-INNER JOIN
+LEFT JOIN
 (
 	SELECT
 		*
